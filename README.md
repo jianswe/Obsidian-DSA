@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# dsa
-=======
 ## Data Structures
 ### 1 [[Arrays and Strings]]
 ### 2 [[Lists]]
@@ -28,7 +25,7 @@
 ### Graph Serach 
 #### [[Graph - DFS]]
 #### [[Graph - BFS]]
-
+### [[Backtracking]]
 ### [[Dynamic Programming]]
 
->>>>>>> d4a713d (init)
+
