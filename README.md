@@ -15,17 +15,19 @@
 
 ### 4 [[Graph]]
 ## Algorithms
-### [[Array Algorithms]]
-### [[Sort]]
-### [[Search]]
+### 1 [[Array Algorithms]]
+### 2 [[Sort]]
+### 3 [[Search]]
 
-### Tree Traversals
+### 4 Tree Traversals
 #### [[Tree Traversals Depth-First]]
 #### [[Tree Traversals Breadth-First]]
-### Graph Serach 
-#### [[Graph - DFS]]
-#### [[Graph - BFS]]
-### [[Backtracking]]
-### [[Dynamic Programming]]
+### 5 Graph Algorithms 
+#### 5.1 [[Graph - DFS]]
+#### 5.2 [[Graph - BFS]]
+#### 5.3 Single Source Shortest Path
+##### 5.3.1 [[Dijkstra's Algorithm]]
+### 6 [[Backtracking]]
+### 7 [[Dynamic Programming]]
 
 
