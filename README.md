@@ -11,6 +11,8 @@
 
 ##### 3.1.2 [[Heap]]
 ##### Binary Indexed Tree
+#### 3.2 N-ary Tree
+##### 3.2.1 Trie (Prefix Tree)
 #### Segment Tree
 
 ### 4 [[Graph]]
