@@ -20,7 +20,8 @@
 ### 1 [[Array Algorithms]]
 ### 2 [[Sort]]
 ### 3 [[Search]]
-
+* [[Linear Search]]
+* [[Binary Search]]
 ### 4 Tree Traversals
 #### [[Tree Traversals Depth-First]]
 #### [[Tree Traversals Breadth-First]]
