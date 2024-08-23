@@ -23,8 +23,8 @@
 * [[Linear Search]]
 * [[Binary Search]]
 ### 4 Tree Traversals
-#### [[Tree Traversals Depth-First]]
-#### [[Tree Traversals Breadth-First]]
+#### [[Depth-First Traversals]]
+#### [[Breadth-First Traversals]]
 ### 5 Graph Algorithms 
 #### 5.1 [[Graph - DFS]]
 #### 5.2 [[Graph - BFS]]

@@ -1,4 +1,4 @@
-Use [[Tree Traversals Breadth-First]] algorithm to traverse graph with certain degrees of separation (depth).
+Use [[Breadth-First Traversals]] algorithm to traverse graph with certain degrees of separation (depth).
 
 ```js
 const findMostCommonTitle = (myId, degreesOfSeparation) => {

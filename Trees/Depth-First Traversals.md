@@ -1,8 +1,8 @@
-![[Tree Traversals.png]]
 Preorder Traversal and Postorder Traversal apply to general tree. 
 Inorder Traversal only apply to binary tree. 
 
-The following code is for binary tree. 
+The following codes are for binary tree. 
+# Pre Order Traversal 
 ```js
 const preorderTraverse = (node, array) => {
 	if (!node) return array;
@@ -11,7 +11,10 @@ const preorderTraverse = (node, array) => {
 	array = preorderTraverse(node.right, array);
 	return array;
 };
+```
 
+# In Order Traversal 
+```js
 const inorderTraverse = (node, array) => {
 	if (!node) return array;
 	array = inorderTraverse(node.left, array);
@@ -19,7 +22,10 @@ const inorderTraverse = (node, array) => {
 	array = inorderTraverse(node.right, array);
 	return array;
 };
+```
 
+# Post Order Traversal 
+```js
 const postorderTraverse = (node, array) => {
 	if (!node) return array;
 	array = postorderTraverse(node.left, array);
@@ -27,27 +33,6 @@ const postorderTraverse = (node, array) => {
 	array.push(node.value);
 	return array;
 };
-```
-
-### Pre Order Traversal 
-```ts 
-function walk(curr: BinaryNode<number> | null, path: number[]): number[] {
-	if (!curr) {
-		return path 
-	}
-
-	// pre
-	path.push(curr.value)
-	// recurse 
-	walk(curr.left, path)
-	walk(curr.right, path)
-
-	return path
-}
-
-export default function pre_order_search(head: BinaryNode<number>): number[] {
-	return walk(head, [])
-}
 ```
 
 Back to [[Tree]]
