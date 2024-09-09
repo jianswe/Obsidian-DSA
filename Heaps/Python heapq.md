@@ -1,6 +1,18 @@
-# Main functions 
-* **heapq.heappushpop(heap, item)**: Push the item onto the heap, then pop and return the smallest item from the heap. The combined action runs more efficiently than `heappush()` followed by a separate call to `heappop()`. 
-* **heapq.heapreplace(heap, item)**: Pop and return the smallest item from the heap, and then push the new item. The heap size is unchanged. If the heap is empty, an `IndexError` is raised.  
+# Purpose 
+Implements a binary heap for efficiently handling priority queues, where the smallest (min-heap) or largest (max-heap, with extra work) element can always be accessed quickly.
+# Usage
+Min-heaps are common in use cases like Dijkstra's algorithm or finding the k smallest/largest elements.
+# Performance 
+Offers `O(log n)` time complexity for insertion and extraction.
+# Methods 
+* `heapq.heappush(heap, item)`: Adds an item to the heap.
+* `heapq.heappop(heap)`: Removes and returns the smallest item.
+* `heapq.heapify(iterable)`: Converts an iterable into a heap in `O(n)` time.
+* `heapq.nlargest(n, iterable)`: Returns the `n` largest elements.
+* `heapq.nsmallest(n, iterable)`: Returns the `n` smallest elements.
+* `heapq.heappushpop(heap, item)`: Push the item onto the heap, then pop and return the smallest item from the heap. The combined action runs more efficiently than `heappush()` followed by a separate call to `heappop()`. 
+* `heapq.heapreplace(heap, item)`: Pop and return the smallest item from the heap, and then push the new item. The heap size is unchanged. If the heap is empty, an `IndexError` is raised.  
+# Example
 ```python
 import heapq
 

@@ -1,5 +1,5 @@
-## Two Pointers 
-### one input, opposite ends 
+# Two Pointers 
+## one input, opposite ends 
 ```js
 let fn = arr => {
     let left = 0, ans = 0, right = arr.length - 1;
@@ -16,7 +16,7 @@ let fn = arr => {
     return ans;
 }
 ```
-### two inputs, exhaust both 
+## two inputs, exhaust both 
 ```js
 let fn = (arr1, arr2) => {
     let i = 0, j = 0, ans = 0;
@@ -43,7 +43,7 @@ let fn = (arr1, arr2) => {
     return ans;
 }
 ```
-### Sliding window 
+## Sliding window 
 ```js
 let fn = arr => {
     let left = 0, ans = 0, curr = 0;
@@ -62,7 +62,7 @@ let fn = arr => {
     return ans;
 }
 ```
-## Build a prefix sum
+# Build a prefix sum
 ```js
 let fn = arr => {
     let prefix = [arr[0]];

@@ -1,10 +1,10 @@
 ![[Stack.png]]
 
-### Use Cases
+# Use Cases
 * JavaScript engines have a call stack 
 * When you hit 'undo' in your text editor or 'back' in your browser, you are using a stack
-### Implementation
-#### Using Array (Object)
+# Implementation
+## Using Array (Object)
 ```js
 class Stack {
 	constructor() {
@@ -31,8 +31,7 @@ class Stack {
 	}
 }
 ```
-#### Using Linked List 
-![[Stack - Using Linked List.png]]
+## Using Linked List 
 ```ts
 type Node<T> = {
 	value: T, 
